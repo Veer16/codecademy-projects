@@ -1,0 +1,19 @@
+body {
+  margin-top: 100px;
+  text-align: center;
+}
+h3 {
+}
+section {
+  border: 1px solid black;
+  border-radius: 2%;
+  margin-bottom: 10px;
+  width: 30%;
+  height: 100px;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 200;
+}
+#one {
+  background-color: #efd9ca;
+}

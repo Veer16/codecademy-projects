@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles.css" />
+    <title>HTML</title>
+  </head>
+
+  <body>
+    <h1>CSS Selectors and Specifity</h1>
+
+    <table border="1">
+      <thead>
+        <tr>
+          <th class="tooltip">
+            Selector Name
+            <span class="tooltiptext">Category Name</span>
+          </th>
+          <th class="tooltip">
+            Defination
+            <span class="tooltiptext"
+              >It provides a top level bride eye view defination</span
+            >
+          </th>
+          <th class="tooltip">
+            Syntax <span class="tooltiptext"> Sample code to use. </span>
+          </th>
+        </tr>
+      </thead>
+
+      <tbody>
+        <tr>
+          <td>Style Attribute</td>
+          <td>
+            If an element has inline styling. It automatically overrides all the
+            other styles.
+          </td>
+          <td>
+            <span class="code-red code"
+              >&lt;button style="color=black;"&gt;</span
+            >
+          </td>
+        </tr>
+        <tr>
+          <td>ID</td>
+          <td>
+            ID has more unique value and they are widely used to focus on an
+            element.
+          </td>
+          <td><span class="code-red code">&lt;button id="id-1"&gt;</span></td>
+        </tr>
+
+        <tr>
+          <td>Class, pseudo-class element</td>
+          <td>
+            Classes are represent with a dot and it can be used multiple times
+            to style an element.
+          </td>
+          <td>
+            <span class="code-red code">
+              .cat <br />{ <br />
+              &ensp; ... <br />&ensp;}
+            </span>
+          </td>
+        </tr>
+
+        <tr>
+          <td>Elements</td>
+          <td>
+            User can directly select an element to style. However, it creates
+            problem when we use same elements multiple times.
+          </td>
+          <td>
+            <span class="code-red code">
+              img <br />{ <br />
+              &ensp; ... <br />&ensp;}
+            </span>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+
+    <!-- Image representation of the specifity -->
+    <h1>CSS Selectors and Specifity</h1>
+    <table border="1">
+      <thead>
+        <tr>
+          <th colspan="3">Selector Name</th>
+        </tr>
+      </thead>
+
+      <tbody>
+        <tr>
+          <td><img src="./specificity.png" alt="" /></td>
+        </tr>
+      </tbody>
+    </table>
+  </body>
+</html>
