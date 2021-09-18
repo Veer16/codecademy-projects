@@ -1,0 +1,145 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: monospace;
+  color: #000;
+}
+body {
+  width: 80%;
+  margin: auto;
+}
+header {
+  width: fit-content;
+  margin: 50px auto;
+  text-transform: uppercase;
+  letter-spacing: 0.5rem;
+}
+.container {
+  border: 2px solid black;
+  padding: 10px;
+  margin: 10px auto;
+}
+.container > h2 {
+  text-transform: uppercase;
+  letter-spacing: 0.2rem;
+  font-size: 1.5rem;
+  font-weight: bold;
+  padding: 20px;
+}
+.container > h2::after {
+  content: "#";
+  color: darkgray;
+  font-size: 20px;
+  vertical-align: super;
+  margin-left: 5px;
+}
+.container > h2:hover::after {
+  color: #2d5dcc;
+  cursor: pointer;
+}
+.color-container {
+  width: 100%;
+}
+.color-panel {
+  display: inline-block;
+  width: 30%;
+  text-align: center;
+  margin: 20px auto;
+  padding: 20px;
+  min-height: 100px;
+  border-radius: 10px;
+  text-align: center;
+  vertical-align: middle;
+  font-size: 1.4rem;
+}
+.color-blue {
+  background-color: #2d5dcc;
+}
+.color-blue p {
+  color: white;
+  margin: 5px auto;
+  vertical-align: middle;
+}
+.color-pink {
+  background-color: #d957d9;
+}
+.color-pink p {
+  color: #000;
+  margin: 5px auto;
+  vertical-align: middle;
+}
+.color-green {
+  background-color: #4fe0b0;
+}
+.color-green p {
+  color: #000;
+  margin: 5px auto;
+  vertical-align: middle;
+}
+.color-beige {
+  background-color: #efd9ca;
+}
+.color-beige p {
+  color: #000;
+  margin: 5px auto;
+  vertical-align: middle;
+}
+/* Fonts section */
+.font-container {
+  width: 100%;
+}
+.font-panel {
+  width: 45%;
+  display: inline-block;
+}
+.font-panel p {
+  padding-bottom: 40px;
+}
+.source-code-pro {
+  font-family: "Source Code Pro", monospace;
+}
+.nunito-sans {
+  font-family: "Nunito Sans", sans-serif;
+}
+.poppins-font {
+  font-family: "Poppins", sans-serif;
+}
+.label {
+  text-decoration: underline;
+  font-weight: 100;
+  font-size: 20px;
+  margin: 30px auto;
+}
+.regular-font {
+  font-style: normal;
+}
+.bold-font {
+  font-weight: bold;
+}
+.italic-font {
+  font-style: italic;
+}
+
+.heading-container {
+  width: 100%;
+}
+.heading-panel h1 {
+  font-size: 32px;
+  margin: 20px auto;
+}
+.heading-panel h2 {
+  font-size: 25px;
+  margin: 20px auto;
+}
+.heading-panel p {
+  font-size: 16px;
+  margin: 20px auto;
+}
+.heading-panel .list {
+  margin-left: 50px;
+}
+ul > li {
+  margin-bottom: 10px;
+  font-size: 14px;
+}
